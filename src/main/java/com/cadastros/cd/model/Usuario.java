@@ -27,8 +27,9 @@ public class Usuario {
         return id;
     }
 
-    public void setId(long id) {
+    public long setId(long id) {
         this.id = id;
+        return id;
     }
 
     public String getEmail() {
@@ -51,9 +52,6 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" +
-                "id=" + id +
-                ", email='" + email + '\'' +
-                '}';
+        return "toString do usuario";
     }
 }
